@@ -7,7 +7,7 @@ deploy:
   api_key:
     secure: "testfornow"
   file:
-  - cv.pdf
+    - cv.pdf
   skip_cleanup: true
   on:
     tags: true
