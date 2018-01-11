@@ -1,6 +1,6 @@
 before_install:
   - "sudo apt-get update"
-  - "sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra"
+  - "sudo apt-get install --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra"
 script:
   - pdflatex cv.tex
 deploy:
