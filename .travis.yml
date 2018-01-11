@@ -7,7 +7,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: "testfornow"
+    secure: "bO7P1DTOK2fB9UAECdxZoLyb4MQOlXzDK5JPaYSqXv1mL1fVxqaFUKd0hcZEXnoMUvISEcVZtX1ruiCzj0AsVCKmLu7h5mtLl/kgsgxVVo9ODs/w10H5TNEBXaoBYlhWIyG1wv1sM3tkmP5hDBRBkCZxHAiNk5MRGY6lIowG60SX8n6bCPD2EIhptn8sJartC2vypMLA27v/Th2HmJxhAMCwNcDHc4hQTxkHYB8g60xlf5Qo0AConVm8i4Sh1iyy4d713B0utf7tQQWaNNutFo0cmNu+j+rXqGjI3RVTkzY00B70TwWcCd2YpliQWKUtYQhducLhUJZZnS6AkJhor9GEBaWk+2cF44mlfzynaCHaPTvwBhydAsszNEwEYdpUrkeXIa9KqEZnWr1lMZrmKNiU1kKeO9dXm4nf258+XxT8mXimEN8u57G0P20uOc8MerMIPIIV8VDT/FYB9X7F3eTrzNIPC6PyR0/ulC8mqvYnS84+FgX0QdM0CQFDhQdbItPfrAQkZRWWvJd4ix69xrcgBM6ycyb+i+0RAMjF80pixi63DPrFKxpKhQdvzcBWsDlbRXIQusp9eC+4o45C93KyBDJwnVwSpYekDWf548BaJjnMpJYb2Z13qQW/1k+ZUX7ibdCQqwobCVrkL3JDLdDVdwzIp/rK7NdUlmtxwAs="
   file:
     - cv.pdf
   skip_cleanup: true
