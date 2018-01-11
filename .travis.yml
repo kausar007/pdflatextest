@@ -1,6 +1,6 @@
 before_install:
   - "sudo apt-get update"
-  - "sudo apt-get install --no-install-recommends texlive-latex-full"
+  - "sudo apt-get install --no-install-recommends texlive-full"
 script:
   - pdflatex cv.tex
   - cat cv.log
