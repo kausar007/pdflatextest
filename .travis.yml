@@ -7,6 +7,7 @@ before_install:
 script:
   - pdflatex cv.tex
 deploy:
+  if: tag IS present
   provider: releases
   file:
     - cv.pdf
