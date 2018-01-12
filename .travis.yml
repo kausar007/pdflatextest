@@ -3,7 +3,7 @@ if: tag IS present
 
 before_install:
   - "sudo apt-get update"
-  - "sudo apt-get install --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra latex-xcolor pgf cm-super"
+  - "sudo apt-get install --no-install-recommends texlive-full"
 script:
   - pdflatex cv.tex
 deploy:
