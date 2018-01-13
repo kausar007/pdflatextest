@@ -1,5 +1,5 @@
 # Build only if tag is present
-#if: tag IS present
+if: tag IS present
 before_install:
   - "sudo apt-get update"
   - "sudo apt-get install --no-install-recommends texlive-full"
