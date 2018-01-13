@@ -1,3 +1,4 @@
+if: tag IS present
 before_install:
   - "sudo apt-get update"
   - "sudo apt-get install --no-install-recommends texlive-full"
@@ -8,5 +9,5 @@ deploy:
   file:
     - cv.pdf
   api_key:
-    secure: "YP0fAlxMMTcjUa+4Qhi8JRAWsn8bcPtxXfgryBSxfsJgaRJfqDar/9jWPD0doNsY1rurDu+cDMACyummwd/9qkFO47KeYL2ayul/KixKK/HxuQ9heHDbvJ6g7oorU6j78THIX0obrJKOFbmIjtW14qogNDzpW1/VeGEwII/1UbCrZo4A7UuQUNDlDKGi/4smwKzxVs515rvc0uSobpy0QUu5UzPBiWwXs7HxbUWk8Pbb67+SBWnIRYEBm9a4lsMOOf5NzFCHvFpjwWbpZHLTNGj1FEA2Ca5x6p/utz8udKCkd5nyJvghieN8aYHNjqONKxnEsWH4Kk6v71+UHAb5WYn4zo9DHcgF4FTuicWrVCdJlfjAA7hX2qDXH7FEd4694NKKmkHkgbDUzrAgR/A1CFO6hvBEqX3N/BbyRrhRRTDaEbmcOuFFF0E2npzsiVADlp/n+dXlPaqfzv4ndUlrTLaGwlGb5PuirROdxB9s88wBKrkRR523aqUZpFh0Zmv42o9g7V6la0bw6CMk8fFuR1wHBqLL5oufpp+1eaeNwpn5yKQ1sSo4RHEESPERxGmtP5kXqAZdzNFTTFFc+0RPlVqW949y7iU/W7c/vQ/8hx7VY4tczeAUyW8OTEtdY9gfGLD+wb86rQ5uLxPTtp/odQlfqaFvl4/9WqHaMRZTxM4="
+    secure: "MY_API_KEY"
   skip_cleanup: true
