@@ -1,12 +1,12 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{casual}
-\moderncvcolor{green}
+\moderncvcolor{blue}
 \usepackage[scale=0.75]{geometry}
 
 \name{Kausar}{Mehmood}
 \title{DevOps Engineer}
 \address{London}{Greater London}{United Kingdom}
-\phone[mobile]{+1~123~456~789}
+\phone[mobile]{+44~(0)~123~456~789}
 \email{kausar\_doaba@yahoo.com}
 \social[github]{kausar007}
 
@@ -14,36 +14,73 @@
 
 \makecvtitle
 
+\section{Profile}
+\cvitem{}{
+An enthusiastic and hardworking person who just completed a software engineering degree at Queen Mary, University of London. Quick to grasp new ideas and concepts, and to develop innovative and creative solutions to problems. Able to work well on own initiative and can demonstrate the high levels of motivation required to meet the tightest of deadlines. Even under significant pressure, possesses a strong ability to perform effectively. Now looking to build on extensive range of technical skills within a suitably challenging role.}
+
 \section{Education}
-\cventry{2012--2015}{MSc Software Engineering}{Queen Mary University of London}{https://qmul.ac.uk}{}{}
-
-
-\section{Experience}
-\cventry{2016--present}{Developer}{}{}{}{
-	Current responsibilities:
-	\begin{itemize}
-    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    \item Donec molestie nisl id ante volutpat molestie.
-    \item Sed sit amet magna ultrices, pretium nisi a, aliquet turpis.
-    \item Duis vitae est laoreet, tempus lacus tempus, convallis orci.
-    \item Nam sit amet erat iaculis, pellentesque diam id, mattis ex.
-    \item Vestibulum in turpis non ante volutpat dictum eu at mi.
-    \item Fusce condimentum leo eget quam accumsan, sit amet posuere sem facilisis.
-    \item Nullam ac nunc in augue elementum mollis eget in odio.
-    \item Ut ac velit eget odio hendrerit molestie nec et tellus.
-    \item Nam condimentum sapien ac molestie sodales.
-    \item Proin nec massa id nibh feugiat lobortis.
-    \item Cras a odio suscipit lectus facilisis semper.
-    \item Vivamus a tortor mattis, pretium eros at, hendrerit mi.
-    \item Vestibulum nec nibh auctor lorem ornare lobortis.
-    \item Maecenas id augue eu purus condimentum lacinia vel ac lectus.
-    \item Sed ac neque vel ante rhoncus ornare.
-    \item Ut aliquam nulla sed nulla posuere maximus.
-    \item Quisque consectetur quam quis dolor vehicula, eget molestie quam pretium.
-	\end{itemize}
+\cventry{2012--2015}{MSc Software Engineering}{Queen Mary University of London}{}{}{
+  \textbf{Core Modules:}\newline
+  Functional Programming, Advanced Program Design, XML and Structured Documents, Advanced Database Systems and Technology, Mobile Services, Real-time and Critical Systems, Software Analysis and Verification, and Interactive System Design.
+  \textbf{Master's Project:}\newline
+  \textbf{Person Identification using Smartphone Accelerometer:}
+  \begin{itemize}
+    \item  The aim of this research project was to identify people based on data collected from their phone accelerometer while they were walking, jogging, or running.
+    \item  Project was divided into two main tasks. First task was to develop an Android application which can read and record values of accelerometer and store it in phone memory. Developed using Android SDK and Eclipse as IDE.
+    \item  Second task was to extract features from the time-series data. Features extracted include average resultant acceleration, histogram bins, standard deviation, arithmetic mean and covariance matrix.
+    \item  Machine learning techniques were then applied to analyze data and create models for different activities and models to identify the person. Using these models individual person was identified in group of people by another set of data of the same person.
+    \item  Compared accuracies of results of different activities, algorithms, distance measuring techniques and length of recordings and concluded how they affected overall accuracy.
+    \item  Data pre-processing, feature extraction and machine learning algorithms were implemented in MATLAB.
+  \end{itemize}
 }
+\cventry{2007--2011}{BS Computer Science}{University of Engineering and Technology, Peshawar}{}{}{
+  \textbf{Core Modules:}\newline
+  Computer Architecture, Operating System, Object Oriented Programming, Visual Programming, Data Structures and Algorithms, Software Engineering, Computer Security, Database Systems, Computer Networking.\newline
+  \textbf{Bachelor's Project:}\newline
+  \textbf{E-SMS stands for Encrypted SMS:}
+    \begin{itemize}
+      \item A stand-alone messaging application for Nokia Symbian phones with capability of reading native inbox and outbox of the device. Login needed to start the application.
+      \item Sends and receives encrypted (RSA based) SMS using a secret key. Only the sender and receiver who know the login details can see the messages.
+      \item Developed using QT framework by Digia.
+    \end{itemize}
+    \textbf{Semester Projects:}
+    \begin{itemize}
+      \item Construction Company accounting system as 6\textsuperscript{th} semester project.
+      \begin{itemize}
+        \item Software Requirements Specifications and Documentations.
+        \item Database designs, ERDs, DFDs and CFDs.
+        \item Implementation in Microsoft VB.Net and SQL Server.
+        \item Data validation and further testing.
+      \end{itemize}
+      \item Basic notepad like text editor as 4\textsuperscript{th} semester project.
+      \begin{itemize}
+        \item Basic file handling operations such as save, open, delete.
+        \item Basic document related operations such as character and line count, print.
+        \item Built-in calculator.
+        \item Implementation in Microsoft C\#.
+      \end{itemize}
+    \end{itemize}
+}
+\section{Skills}
+\cvitem{Languages}{C/C++, C\#, Java, Haskell}
+\cvitem{VCS}{Git, SVN}
+\cvitem{Web}{HTML/CSS, Javascript/jQuery}
+\cvitem{Data}{XML/XSLT/XQuery, JSON/YAML}
+\cvitem{Testing}{Selenium, Cucumber, Junit}
+\cvitem{App}{Tomcat, Apache, Nginx}
+\cvitem{Build}{Jenkins, TravisCI, Maven}
+\cvitem{Automation}{Puppet, Amazon AWS Cloudformation}
+\cvitem{Virtualisation}{VM Ware ESX/ESXi, Docker, Amazon AWS/EC2, Vagrant}
+\cvitem{Platforms}{Linux, Windows}
 
-\section{References available upon request}
+\section{Languages}
+\cvitemwithcomment{English}{C2}{Full professional proficiency}
+\cvitemwithcomment{Urdu}{C2}{Bilingual proficiency}
+\cvitemwithcomment{Hindi}{C1}{Minimum professional proficiency}
+\cvitemwithcomment{Pashto}{C2}{Native proficiency}
+
+\section{References}
+\cvitem{}{Available upon request}
 
 \clearpage
 
