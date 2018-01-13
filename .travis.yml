@@ -1,11 +1,9 @@
-if: tag IS present
 before_install:
   - "sudo apt-get update"
   - "sudo apt-get install --no-install-recommends texlive-full"
 script:
   - pdflatex cv.tex
 deploy:
-  if: tag IS present
   provider: releases
   file:
     - cv.pdf
